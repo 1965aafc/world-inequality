@@ -25,12 +25,6 @@
 	</head>
 
 	<body>
-		<div>
-			<p class="" style="white-space:pre-wrap;">This is our entry for the <a href="http://hdr.undp.org/en/data-visualization-challenge-2019" target="_blank">2019 Human Development Data Visualization Challenge: Visualize Inequality</a> of the United Nations Development Report.</p>
-			<p class="" style="white-space:pre-wrap;">It represents the share of income that is owned by the top quantile (20%) of the population and that of the bottom quantile in 63 countries. The longer the lines at the top, the larger the share of the national income that is owned by the richest quantile. The shorter the lines at the bottom, the smaller the share of the poorest quantile.</p>
-			<p class="" style="white-space:pre-wrap;">See below the visualisation for some explanations of the analytical and design choices.</p>
-		</div>
-
 		<div id="viz"></div>
 		<script type="text/javascript">
 			const dataFilepaths = "data/d3-processed-data/country_filepaths.json";
@@ -214,17 +208,5 @@
 				});
 			}
 		</script>
-
-		<div>
-			<h2 style="white-space:pre-wrap;">Analytical choices</h2>
-			<p class="" style="white-space:pre-wrap;">We used the quantiles because they are an intuitive way to think about inequality. Some groups of people have more than their proportional share, some have less and this is what is represented visually.</p>
-			<p class="" style="white-space:pre-wrap;">The order of countries is that of the lowest concentration of inequality all the way to the highest, as of the last year available for each country. This allows the readers to find the extremes most easily and to see each country alongside the most comparable ones. </p>
-			<p class="" style="white-space:pre-wrap;">We only included countries that have at least 10 years of data available over the time period.</p>
-
-			<h2 style="white-space:pre-wrap;">Design choices</h2>
-			<p class="" style="white-space:pre-wrap;">Using these simple stacked bar charts without representing the middle class, the readers can use their intuition that the richest quantile is at the top and the poorest at the bottom.</p>
-			<p class="" style="white-space:pre-wrap;"><strong>Small multiples</strong> allow to see several countries at once, rather than having to select countries with a drop down menu for instance.</p>
-			<p class="" style="white-space:pre-wrap;">A different colour, along with a white separator, is applied to each 20% share of income to clearly identify when the top quantile owns more than, double or triple its proportional share of income. </p>
-		</div>
 	</body>
 </html>
