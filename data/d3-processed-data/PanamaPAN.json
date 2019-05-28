@@ -1,0 +1,161 @@
+{
+  "name": "Panama",
+  "data": [
+    {
+      "year": "1992",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1993",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1994",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1995",
+      "bottom": 1.4,
+      "middle": 38.1,
+      "top": 60.5
+    },
+    {
+      "year": "1996",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1997",
+      "bottom": 1.7,
+      "middle": 37.0,
+      "top": 61.3
+    },
+    {
+      "year": "1998",
+      "bottom": 1.6,
+      "middle": 37.8,
+      "top": 60.6
+    },
+    {
+      "year": "1999",
+      "bottom": 1.9,
+      "middle": 38.300000000000004,
+      "top": 59.8
+    },
+    {
+      "year": "2000",
+      "bottom": 2.1,
+      "middle": 37.6,
+      "top": 60.3
+    },
+    {
+      "year": "2001",
+      "bottom": 1.9,
+      "middle": 38.1,
+      "top": 60.0
+    },
+    {
+      "year": "2002",
+      "bottom": 2.5,
+      "middle": 37.6,
+      "top": 59.9
+    },
+    {
+      "year": "2003",
+      "bottom": 2.4,
+      "middle": 38.0,
+      "top": 59.6
+    },
+    {
+      "year": "2004",
+      "bottom": 2.6,
+      "middle": 38.699999999999996,
+      "top": 58.7
+    },
+    {
+      "year": "2005",
+      "bottom": 2.7,
+      "middle": 39.599999999999994,
+      "top": 57.7
+    },
+    {
+      "year": "2006",
+      "bottom": 2.5,
+      "middle": 39.1,
+      "top": 58.4
+    },
+    {
+      "year": "2007",
+      "bottom": 3.0,
+      "middle": 40.4,
+      "top": 56.6
+    },
+    {
+      "year": "2008",
+      "bottom": 3.2,
+      "middle": 39.8,
+      "top": 57.0
+    },
+    {
+      "year": "2009",
+      "bottom": 3.5,
+      "middle": 40.1,
+      "top": 56.4
+    },
+    {
+      "year": "2010",
+      "bottom": 3.3,
+      "middle": 40.7,
+      "top": 56.0
+    },
+    {
+      "year": "2011",
+      "bottom": 3.4,
+      "middle": 40.800000000000004,
+      "top": 55.8
+    },
+    {
+      "year": "2012",
+      "bottom": 3.2,
+      "middle": 40.699999999999996,
+      "top": 56.1
+    },
+    {
+      "year": "2013",
+      "bottom": 3.3,
+      "middle": 40.7,
+      "top": 56.0
+    },
+    {
+      "year": "2014",
+      "bottom": 3.4,
+      "middle": 41.800000000000004,
+      "top": 54.8
+    },
+    {
+      "year": "2015",
+      "bottom": 3.4,
+      "middle": 41.300000000000004,
+      "top": 55.3
+    },
+    {
+      "year": "2016",
+      "bottom": 3.3,
+      "middle": 41.900000000000006,
+      "top": 54.8
+    },
+    {
+      "year": "2017",
+      "bottom": 3.4,
+      "middle": 42.4,
+      "top": 54.2
+    }
+  ]
+}

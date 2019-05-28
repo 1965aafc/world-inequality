@@ -1,0 +1,161 @@
+{
+  "name": "Chile",
+  "data": [
+    {
+      "year": "1992",
+      "bottom": 3.8,
+      "middle": 36.1,
+      "top": 60.1
+    },
+    {
+      "year": "1993",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1994",
+      "bottom": 3.5,
+      "middle": 35.0,
+      "top": 61.5
+    },
+    {
+      "year": "1995",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1996",
+      "bottom": 3.6,
+      "middle": 36.3,
+      "top": 60.1
+    },
+    {
+      "year": "1997",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1998",
+      "bottom": 3.5,
+      "middle": 35.8,
+      "top": 60.7
+    },
+    {
+      "year": "1999",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2000",
+      "bottom": 3.8,
+      "middle": 38.2,
+      "top": 58.0
+    },
+    {
+      "year": "2001",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2002",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2003",
+      "bottom": 4.0,
+      "middle": 39.2,
+      "top": 56.8
+    },
+    {
+      "year": "2004",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2005",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2006",
+      "bottom": 4.6,
+      "middle": 41.4,
+      "top": 54.0
+    },
+    {
+      "year": "2007",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2008",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2009",
+      "bottom": 4.6,
+      "middle": 40.6,
+      "top": 54.8
+    },
+    {
+      "year": "2010",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2011",
+      "bottom": 4.9,
+      "middle": 41.300000000000004,
+      "top": 53.8
+    },
+    {
+      "year": "2012",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2013",
+      "bottom": 5.1,
+      "middle": 41.199999999999996,
+      "top": 53.7
+    },
+    {
+      "year": "2014",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2015",
+      "bottom": 4.8,
+      "middle": 41.6,
+      "top": 53.6
+    },
+    {
+      "year": "2016",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2017",
+      "bottom": 5.2,
+      "middle": 41.9,
+      "top": 52.9
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "name": "El Salvador",
+  "data": [
+    {
+      "year": "1992",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1993",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1994",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1995",
+      "bottom": 3.7,
+      "middle": 41.8,
+      "top": 54.5
+    },
+    {
+      "year": "1996",
+      "bottom": 3.5,
+      "middle": 41.0,
+      "top": 55.5
+    },
+    {
+      "year": "1997",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1998",
+      "bottom": 2.0,
+      "middle": 40.5,
+      "top": 57.5
+    },
+    {
+      "year": "1999",
+      "bottom": 2.5,
+      "middle": 41.8,
+      "top": 55.7
+    },
+    {
+      "year": "2000",
+      "bottom": 3.2,
+      "middle": 41.0,
+      "top": 55.8
+    },
+    {
+      "year": "2001",
+      "bottom": 3.1,
+      "middle": 41.4,
+      "top": 55.5
+    },
+    {
+      "year": "2002",
+      "bottom": 3.0,
+      "middle": 41.3,
+      "top": 55.7
+    },
+    {
+      "year": "2003",
+      "bottom": 2.8,
+      "middle": 43.1,
+      "top": 54.1
+    },
+    {
+      "year": "2004",
+      "bottom": 3.7,
+      "middle": 44.0,
+      "top": 52.3
+    },
+    {
+      "year": "2005",
+      "bottom": 3.8,
+      "middle": 43.0,
+      "top": 53.2
+    },
+    {
+      "year": "2006",
+      "bottom": 4.8,
+      "middle": 43.900000000000006,
+      "top": 51.3
+    },
+    {
+      "year": "2007",
+      "bottom": 5.2,
+      "middle": 43.599999999999994,
+      "top": 51.2
+    },
+    {
+      "year": "2008",
+      "bottom": 4.6,
+      "middle": 42.9,
+      "top": 52.5
+    },
+    {
+      "year": "2009",
+      "bottom": 4.9,
+      "middle": 43.5,
+      "top": 51.6
+    },
+    {
+      "year": "2010",
+      "bottom": 5.1,
+      "middle": 45.5,
+      "top": 49.4
+    },
+    {
+      "year": "2011",
+      "bottom": 5.6,
+      "middle": 45.699999999999996,
+      "top": 48.7
+    },
+    {
+      "year": "2012",
+      "bottom": 5.7,
+      "middle": 46.099999999999994,
+      "top": 48.2
+    },
+    {
+      "year": "2013",
+      "bottom": 5.5,
+      "middle": 44.9,
+      "top": 49.6
+    },
+    {
+      "year": "2014",
+      "bottom": 5.8,
+      "middle": 46.2,
+      "top": 48.0
+    },
+    {
+      "year": "2015",
+      "bottom": 6.1,
+      "middle": 46.699999999999996,
+      "top": 47.2
+    },
+    {
+      "year": "2016",
+      "bottom": 5.9,
+      "middle": 47.7,
+      "top": 46.4
+    },
+    {
+      "year": "2017",
+      "bottom": 6.4,
+      "middle": 48.9,
+      "top": 44.7
+    }
+  ]
+}

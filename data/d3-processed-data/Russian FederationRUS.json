@@ -1,0 +1,161 @@
+{
+  "name": "Russian Federation",
+  "data": [
+    {
+      "year": "1992",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1993",
+      "bottom": 4.4,
+      "middle": 42.300000000000004,
+      "top": 53.3
+    },
+    {
+      "year": "1994",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1995",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1996",
+      "bottom": 4.5,
+      "middle": 44.4,
+      "top": 51.1
+    },
+    {
+      "year": "1997",
+      "bottom": 6.3,
+      "middle": 48.6,
+      "top": 45.1
+    },
+    {
+      "year": "1998",
+      "bottom": 6.2,
+      "middle": 49.199999999999996,
+      "top": 44.6
+    },
+    {
+      "year": "1999",
+      "bottom": 6.3,
+      "middle": 49.900000000000006,
+      "top": 43.8
+    },
+    {
+      "year": "2000",
+      "bottom": 6.4,
+      "middle": 49.9,
+      "top": 43.7
+    },
+    {
+      "year": "2001",
+      "bottom": 6.6,
+      "middle": 49.6,
+      "top": 43.8
+    },
+    {
+      "year": "2002",
+      "bottom": 6.6,
+      "middle": 49.199999999999996,
+      "top": 44.2
+    },
+    {
+      "year": "2003",
+      "bottom": 6.1,
+      "middle": 47.199999999999996,
+      "top": 46.7
+    },
+    {
+      "year": "2004",
+      "bottom": 6.0,
+      "middle": 47.2,
+      "top": 46.8
+    },
+    {
+      "year": "2005",
+      "bottom": 5.8,
+      "middle": 46.5,
+      "top": 47.7
+    },
+    {
+      "year": "2006",
+      "bottom": 5.9,
+      "middle": 46.6,
+      "top": 47.5
+    },
+    {
+      "year": "2007",
+      "bottom": 5.8,
+      "middle": 45.300000000000004,
+      "top": 48.9
+    },
+    {
+      "year": "2008",
+      "bottom": 6.1,
+      "middle": 45.4,
+      "top": 48.5
+    },
+    {
+      "year": "2009",
+      "bottom": 6.4,
+      "middle": 46.5,
+      "top": 47.1
+    },
+    {
+      "year": "2010",
+      "bottom": 6.4,
+      "middle": 47.0,
+      "top": 46.6
+    },
+    {
+      "year": "2011",
+      "bottom": 6.5,
+      "middle": 46.5,
+      "top": 47.0
+    },
+    {
+      "year": "2012",
+      "bottom": 6.3,
+      "middle": 45.900000000000006,
+      "top": 47.8
+    },
+    {
+      "year": "2013",
+      "bottom": 6.4,
+      "middle": 45.6,
+      "top": 48.0
+    },
+    {
+      "year": "2014",
+      "bottom": 6.6,
+      "middle": 46.3,
+      "top": 47.1
+    },
+    {
+      "year": "2015",
+      "bottom": 6.9,
+      "middle": 47.800000000000004,
+      "top": 45.3
+    },
+    {
+      "year": "2016",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2017",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "name": "Germany",
+  "data": [
+    {
+      "year": "1992",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1993",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1994",
+      "bottom": 8.5,
+      "middle": 53.7,
+      "top": 37.8
+    },
+    {
+      "year": "1995",
+      "bottom": 8.6,
+      "middle": 53.699999999999996,
+      "top": 37.7
+    },
+    {
+      "year": "1996",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1997",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1998",
+      "bottom": 8.9,
+      "middle": 53.9,
+      "top": 37.2
+    },
+    {
+      "year": "1999",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2000",
+      "bottom": 8.8,
+      "middle": 53.5,
+      "top": 37.7
+    },
+    {
+      "year": "2001",
+      "bottom": 8.6,
+      "middle": 52.3,
+      "top": 39.1
+    },
+    {
+      "year": "2002",
+      "bottom": 8.6,
+      "middle": 52.699999999999996,
+      "top": 38.7
+    },
+    {
+      "year": "2003",
+      "bottom": 8.5,
+      "middle": 52.4,
+      "top": 39.1
+    },
+    {
+      "year": "2004",
+      "bottom": 8.5,
+      "middle": 52.4,
+      "top": 39.1
+    },
+    {
+      "year": "2005",
+      "bottom": 8.1,
+      "middle": 51.199999999999996,
+      "top": 40.7
+    },
+    {
+      "year": "2006",
+      "bottom": 8.3,
+      "middle": 51.900000000000006,
+      "top": 39.8
+    },
+    {
+      "year": "2007",
+      "bottom": 8.3,
+      "middle": 51.8,
+      "top": 39.9
+    },
+    {
+      "year": "2008",
+      "bottom": 8.4,
+      "middle": 51.9,
+      "top": 39.7
+    },
+    {
+      "year": "2009",
+      "bottom": 8.3,
+      "middle": 52.7,
+      "top": 39.0
+    },
+    {
+      "year": "2010",
+      "bottom": 8.4,
+      "middle": 52.800000000000004,
+      "top": 38.8
+    },
+    {
+      "year": "2011",
+      "bottom": 8.5,
+      "middle": 52.4,
+      "top": 39.1
+    },
+    {
+      "year": "2012",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2013",
+      "bottom": 8.2,
+      "middle": 52.3,
+      "top": 39.5
+    },
+    {
+      "year": "2014",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2015",
+      "bottom": 7.8,
+      "middle": 52.5,
+      "top": 39.7
+    },
+    {
+      "year": "2016",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2017",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "name": "Ireland",
+  "data": [
+    {
+      "year": "1992",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1993",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1994",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1995",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1996",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1997",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1998",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "1999",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2000",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2001",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2002",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2003",
+      "bottom": 7.7,
+      "middle": 51.5,
+      "top": 40.8
+    },
+    {
+      "year": "2004",
+      "bottom": 7.6,
+      "middle": 51.1,
+      "top": 41.3
+    },
+    {
+      "year": "2005",
+      "bottom": 7.7,
+      "middle": 50.5,
+      "top": 41.8
+    },
+    {
+      "year": "2006",
+      "bottom": 7.9,
+      "middle": 51.4,
+      "top": 40.7
+    },
+    {
+      "year": "2007",
+      "bottom": 8.2,
+      "middle": 51.5,
+      "top": 40.3
+    },
+    {
+      "year": "2008",
+      "bottom": 8.2,
+      "middle": 52.5,
+      "top": 39.3
+    },
+    {
+      "year": "2009",
+      "bottom": 7.7,
+      "middle": 51.599999999999994,
+      "top": 40.7
+    },
+    {
+      "year": "2010",
+      "bottom": 7.6,
+      "middle": 52.199999999999996,
+      "top": 40.2
+    },
+    {
+      "year": "2011",
+      "bottom": 7.5,
+      "middle": 51.8,
+      "top": 40.7
+    },
+    {
+      "year": "2012",
+      "bottom": 7.5,
+      "middle": 51.4,
+      "top": 41.1
+    },
+    {
+      "year": "2013",
+      "bottom": 7.3,
+      "middle": 51.400000000000006,
+      "top": 41.3
+    },
+    {
+      "year": "2014",
+      "bottom": 7.9,
+      "middle": 52.0,
+      "top": 40.1
+    },
+    {
+      "year": "2015",
+      "bottom": 8.0,
+      "middle": 51.8,
+      "top": 40.2
+    },
+    {
+      "year": "2016",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    },
+    {
+      "year": "2017",
+      "bottom": 0,
+      "middle": 0,
+      "top": 0
+    }
+  ]
+}
