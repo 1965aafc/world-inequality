@@ -26,7 +26,7 @@ function selectTab(evt, tabName) {
 }
 
 // Path is relative to index.html
-const dataFilepaths = "data/d3-processed-data/country_filepaths.json";
+const dataFilepaths = "data/income-distribution-data/country_filepaths.json";
 
 /*
  * Layout information
