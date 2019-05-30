@@ -62,20 +62,19 @@ function drawAverage(selector, dataPath) {
 			.rangeRoundBands([10, width-10], 0.02);
 
 		var y = d3.scale.linear()
+			//.domain([0, d3.max(dataset, function(d) { return d3.max(d, function(d) { return d.y0 + d.y; });  })])
 			.domain([0, 300000])
 			.range([height, 0]);
 
 		// Define colors
-		var bottomBarColors = ["#D4D9B7", "#ffffff00", "#EDC066"];  // Same colour on both ends so that do not get orange halo around top of bars
-		const barColors = [bottomBarColors[0], '#F5E193', '#EDC066', '#C48E42'];
-		const lineColor = '#FAFCFA';  // Line color must match background color in CSS
+		var barColors = ["#D4D9B7", "#ffffff00", "#EDC066"];  // Same colour on both ends so that do not get orange halo around top of bars
 
 		// Create groups for each series, rects for each segment 
 		var groups = svg.selectAll("g.cost")
 			.data(dataset)
 			.enter().append("g")
 			.attr("class", "cost")
-			.style("fill", function(d, i) { return bottomBarColors[i]; });
+			.style("fill", function(d, i) { return barColors[i]; });
 
 		var rect = groups.selectAll("rect")
 			.data(function(d) { return d; })
@@ -85,88 +84,5 @@ function drawAverage(selector, dataPath) {
 			.attr("y", function(d) { return y(d.y0 + d.y); })
 			.attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
 			.attr("width", x.rangeBand())
-
-		const defs = svg.append("defs");
-
-		const bgGradient = defs
-			.append("linearGradient")
-			.attr("id", "bg-gradient")
-			.attr("gradientTransform", "rotate(90)");
-
-		// Define bar colors in the most elegant way possible...
-		bgGradient
-			.append('stop')
-			.attr('stop-color', barColors[0])
-			.attr('offset', '19.5%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', lineColor)
-			.attr('offset', '19.5%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', lineColor)
-			.attr('offset', '20%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', barColors[1])
-			.attr('offset', '20%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', barColors[1])
-			.attr('offset', '39.5%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', lineColor)
-			.attr('offset', '39.5%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', lineColor)
-			.attr('offset', '40%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', barColors[2])
-			.attr('offset', '40%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', barColors[2])
-			.attr('offset', '59.5%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', lineColor)
-			.attr('offset', '59.5%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', lineColor)
-			.attr('offset', '60%');
-		bgGradient
-			.append('stop')
-			.attr('stop-color', barColors[3])
-			.attr('offset', '60%');
-
-		const pairData = dataset[2];
-		clipID = 'clip-bar-rects'.concat(selector.substr(1,3))
-		defs
-			.append('clipPath')
-			.attr('id', clipID)
-			.selectAll('bar')
-			.data(pairData)
-			.enter()
-			.append('rect')
-			.attr("x", function(d) { return x(d.x); })
-			.attr("y", function(d) { return y(d.y0 + d.y); })
-			.attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
-			.attr("width", x.rangeBand());
-
-		const clipPath = svg
-			.append('g')
-			.attr('clip-path', `url(#${clipID})`);
-
-		clipPath
-			.append('rect')
-			.attr('x', 0)
-			.attr('y', 0)
-			.attr('width', width)
-			.attr('height', height)
-			.style('fill', 'url(#bg-gradient)');
 	});
 }
