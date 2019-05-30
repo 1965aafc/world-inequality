@@ -1,22 +1,22 @@
 // Path is relative to index.html
-const distributionDataFilepaths = "data/income-distribution-data/country_filepaths.json";
+const averageDataFilepaths = "data/average-income-data/country_filepaths.json";
 
 /*
  * Generate layout
  */
-d3.select("#income-distribution-viz")
+d3.select("#average-income-viz")
 	.attr("class", "gallery")
-	.attr("id", "distributionviz")
+	.attr("id", "averageviz")
 
-d3.json(distributionDataFilepaths, filePaths => {
+d3.json(averageDataFilepaths, filePaths => {
 	filePaths.forEach(filePath => {
-		countryCode = filePath.substr(-8, 3) + "distribution";
+		countryCode = filePath.substr(-8, 3) + "average";
 		countrySelector = "." + countryCode;
-		d3.select("#distributionviz")
+		d3.select("#averageviz")
 			.append("div")
 			.attr("class", "gallery_chart " + countryCode);
 
-		drawDistribution(countrySelector, filePath);
+		drawAverage(countrySelector, filePath);
 	});
 });
 
@@ -24,7 +24,7 @@ d3.json(distributionDataFilepaths, filePaths => {
  * Draws inequality chart for the JSON file provided (dataPath) at the
  * selector provided.
  */
-function drawDistribution(selector, dataPath) {
+function drawAverage(selector, dataPath) {
 	d3.json(dataPath, countryObject => {
 		// Create SVG
 		const svg = d3.select(selector)
@@ -62,11 +62,11 @@ function drawDistribution(selector, dataPath) {
 			.rangeRoundBands([10, width-10], 0.02);
 
 		var y = d3.scale.linear()
-			.domain([0, d3.max(dataset, function(d) { return d3.max(d, function(d) { return d.y0 + d.y; });  })])
+			.domain([0, 300000])
 			.range([height, 0]);
 
 		// Define colors
-		var bottomBarColors = ["#D4D9B7", "#ffffff00", "#D4D9B7"];  // Same colour on both ends so that do not get orange halo around top of bars
+		var bottomBarColors = ["#D4D9B7", "#ffffff00", "#EDC066"];  // Same colour on both ends so that do not get orange halo around top of bars
 		const barColors = [bottomBarColors[0], '#F5E193', '#EDC066', '#C48E42'];
 		const lineColor = '#FAFCFA';  // Line color must match background color in CSS
 
