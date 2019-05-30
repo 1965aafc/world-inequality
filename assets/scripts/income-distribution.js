@@ -25,26 +25,6 @@ function selectTab(evt, tabName) {
 	evt.currentTarget.className += " active";
 }
 
-/*
- * Setup tabs
- * Tab code is from practical work in Thomas Hurtut's "Visualisation
- * de données" class at Polytechnique Montréal.
- */
- /*
-var tabs = d3.selectAll(".tabs li")
-tabs.on("click", function (d, i) {
-	var self = this;
-	var index = i;
-	tabs.classed("active", function () {
-		return self === this;
-	});
-	d3.selectAll(".tabs .tab")
-		.classed("visible", function (d, i) {
-			return index === i;
-		});
-});
-*/
-
 // Path is relative to index.html
 const dataFilepaths = "data/d3-processed-data/country_filepaths.json";
 
