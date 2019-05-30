@@ -1,3 +1,50 @@
+/*
+ * Tab manipulation from w3schools: https://www.w3schools.com/howto/howto_js_tabs.asp
+ */
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+function selectTab(evt, tabName) {
+	// Declare all variables
+	var i, tabcontent, tablinks;
+
+	// Get all elements with class="tabcontent" and hide them
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+
+	// Get all elements with class="tablinks" and remove the class "active"
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+
+	// Show the current tab, and add an "active" class to the button that opened the tab
+	document.getElementById(tabName).style.display = "block";
+	evt.currentTarget.className += " active";
+}
+
+/*
+ * Setup tabs
+ * Tab code is from practical work in Thomas Hurtut's "Visualisation
+ * de données" class at Polytechnique Montréal.
+ */
+ /*
+var tabs = d3.selectAll(".tabs li")
+tabs.on("click", function (d, i) {
+	var self = this;
+	var index = i;
+	tabs.classed("active", function () {
+		return self === this;
+	});
+	d3.selectAll(".tabs .tab")
+		.classed("visible", function (d, i) {
+			return index === i;
+		});
+});
+*/
+
 // Path is relative to index.html
 const dataFilepaths = "data/d3-processed-data/country_filepaths.json";
 
@@ -13,8 +60,7 @@ const svgHeight = svgWidth / svgAspectRatio;
 /*
  * Generate layout
  */
-d3.select("#viz")
-	.append("div")
+d3.select("#income-distribution-viz")
 	.attr("class", "gallery")
 
 d3.json(dataFilepaths, filePaths => {

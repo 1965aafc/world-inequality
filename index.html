@@ -4,14 +4,26 @@
 		<meta charset="utf-8">
 		<title>UN Inequality Visualisation</title>
 		<link rel="stylesheet"
-		  href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
-		  integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
-		  crossorigin="anonymous"/>
+			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+			integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
+			crossorigin="anonymous"/>
 		<link rel="stylesheet" href="assets/css/world-inequality.css"/>
 	</head>
 
 	<body>
-		<div id="viz"></div>
+		<!-- Tab declaration from w3schools: https://www.w3schools.com/howto/howto_js_tabs.asp -->
+		<div class="tab">
+			<button class="tablinks" onclick="selectTab(event, 'income-distribution')" id="defaultOpen">Income Distribution</button>
+			<button class="tablinks" onclick="selectTab(event, 'average-income')">Income Per Capita</button>
+		</div>
+
+		<div id="income-distribution" class="tabcontent">
+			<div id="income-distribution-viz"></div>
+		</div>
+
+		<div id="average-income" class="tabcontent">
+			<h3>Income Per Capita</h3>
+		</div>
 
 		<script src="/assets/libs/d3v3.js" charset="utf-8"></script>
 
