@@ -38,8 +38,9 @@ function drawAverage(selector, dataPath) {
 		const countryName = countryObject.name;
 		const titleColor = "#b0b0b0";
 		svg.append("text")
-			.attr("x", 17)
-			.attr("y", -15)
+			.attr("font-size", "12px")
+			.attr("x", 19)
+			.attr("y", -10)
 			.style("fill", titleColor)
 			.text(countryName);
 
