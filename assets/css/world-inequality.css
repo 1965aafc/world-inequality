@@ -3,7 +3,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 170px);
 	grid-gap: 10px;
-	padding: 15px;
+	padding: 10px;
 }
 
 .gallery_chart {
