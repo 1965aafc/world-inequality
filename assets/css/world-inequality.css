@@ -34,7 +34,7 @@
 	border: none;
 	outline: none;
 	cursor: auto;
-	padding: 14px 16px;
+	padding: 10px;
 	transition: 0.3s;
 }
 
@@ -62,6 +62,6 @@
 /* Style the tab content */
 .tabcontent {
 	display: none;
-	padding: 6px 12px;
+	padding: 3px 0px;
 	border-top: none;
 }
