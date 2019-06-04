@@ -15,7 +15,6 @@
 /*
  * CSS below from w3school:
  *  https://www.w3schools.com/howto/howto_js_tabs.asp
- *  https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
  */
 /* Style the tab */
 .tab {
@@ -24,6 +23,8 @@
 	display: flex;
 	width: 40%;
 	margin: auto;
+	position: sticky;
+	top: 0;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -50,13 +51,6 @@
 }
 .tab button:not(.active) {
 	cursor: pointer;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 /* Style the tab content */
