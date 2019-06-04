@@ -32,5 +32,5 @@ const margin = {top: 35, right: 0, bottom: 10, left: 0};
 
 const svgAspectRatio = 4/3;
 //const svgWidth = 245;
-const svgWidth = 170;
+const svgWidth = 200;
 const svgHeight = svgWidth / svgAspectRatio;
