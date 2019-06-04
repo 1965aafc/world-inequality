@@ -74,6 +74,7 @@ function drawAverage(selector, dataPath) {
 		var groups = svg.selectAll("g")
 			.data(dataset)
 			.enter().append("g")
+			.attr("class", function(d, i) { return "barSet" + i;})
 			.style("fill", function(d, i) { return barColors[i]; });
 
 		var rect = groups.selectAll("rect")
@@ -84,5 +85,9 @@ function drawAverage(selector, dataPath) {
 			.attr("y", function(d) { return y(d.y0 + d.y); })
 			.attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
 			.attr("width", x.rangeBand())
+
+		var topBars = svg.select(".barSet2")
+		topBars.selectAll("rect")
+			.style("fill", function(d, i) { return countryObject.colors[i]; });
 	});
 }
