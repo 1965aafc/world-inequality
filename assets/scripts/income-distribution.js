@@ -72,10 +72,9 @@ function drawDistribution(selector, dataPath) {
 		const lineColor = '#FAFCFA';  // Line color must match background color in CSS
 
 		// Create groups for each series, rects for each segment 
-		var groups = svg.selectAll("g.cost")
+		var groups = svg.selectAll("g")
 			.data(dataset)
 			.enter().append("g")
-			.attr("class", "cost")
 			.style("fill", function(d, i) { return bottomBarColors[i]; });
 
 		var rect = groups.selectAll("rect")

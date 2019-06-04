@@ -71,10 +71,9 @@ function drawAverage(selector, dataPath) {
 		var barColors = ["#D4D9B7", "#ffffff00", "#EDC066"];  // Same colour on both ends so that do not get orange halo around top of bars
 
 		// Create groups for each series, rects for each segment 
-		var groups = svg.selectAll("g.cost")
+		var groups = svg.selectAll("g")
 			.data(dataset)
 			.enter().append("g")
-			.attr("class", "cost")
 			.style("fill", function(d, i) { return barColors[i]; });
 
 		var rect = groups.selectAll("rect")
