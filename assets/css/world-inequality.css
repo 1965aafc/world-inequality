@@ -31,7 +31,7 @@
 	float: left;
 	border: none;
 	outline: none;
-	cursor: pointer;
+	cursor: auto;
 	padding: 14px 16px;
 	transition: 0.3s;
 }
@@ -42,8 +42,12 @@
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tab button.active,
+.tab button.active:hover {
 	background-color: #ddd;
+}
+.tab button:not(.active) {
+	cursor: pointer;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
