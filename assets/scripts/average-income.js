@@ -64,7 +64,7 @@ function drawAverage(selector, dataPath) {
 
 		var y = d3.scale.linear()
 			//.domain([0, d3.max(dataset, function(d) { return d3.max(d, function(d) { return d.y0 + d.y; });  })])
-			.domain([0, 300000])
+			.domain([0, 350000])
 			.range([height, 0]);
 
 		// Define colors
